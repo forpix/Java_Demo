@@ -2,11 +2,20 @@ language: java
 dist: trusty
 sudo: true
 
+# blocklist
+branches:
+  except:
+  - master
+
+# safelist
+branches:
+  only:
+  - develop
+
 matrix:
   include:      
     #Linux
     - os: linux
-    
     # OSX
     - os: osx
       sudo: false
