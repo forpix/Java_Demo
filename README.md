@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Diffblue Java Demo repository
 
 This project contains sample Java code for the Diffblue Test Generation service.
